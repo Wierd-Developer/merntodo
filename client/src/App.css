@@ -1,0 +1,94 @@
+.app-container{
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    /* align-items: center; */
+    
+}
+.App{
+    /* box-shadow: 0px 0px 10px #222; */
+    height: 60vh;
+    padding: 1rem;
+    /* background-color: #fff; */
+    width: 100%;
+    text-align: center;
+}
+.App h1{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    font-family: sans-serif;
+}
+.App input{
+    width: 70%;
+    margin-bottom: 1rem;
+    
+    height: 7vh;
+    padding-left: 10px;
+    font-size: 1rem;
+    box-shadow: 0 0 10px #cac6c6;
+    border: none;
+    outline: none;
+}
+.show-list{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 4px #b4afaf;
+    padding: 8px;
+     /* padding-bottom: 10px; */
+    /* border: 1px solid red; */
+    /* border-bottom: 1px solid gray; */
+    width: 30%;
+
+}
+.addtodobtn{
+    font-size: 0.9rem;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(212, 134, 105);
+}
+.editBtn{
+    font-size: 0.7rem;
+    margin-left: 20px;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+    padding: 6px 12px;
+    background-color: #222;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+.saveBtn{
+    font-size: 0.7rem;
+    margin-left: 20px;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+    padding: 6px 12px;
+    background-color: rgb(52, 147, 184);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+
+}
+@media screen and (max-width:768px){
+    ul li{
+        width:fit-content;
+    }
+}
